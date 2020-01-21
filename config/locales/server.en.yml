@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    discourse_home_page_enabled: 'Enable the discourse-home-page plugin'
+    discourse_home_page_path: 'Path of the Discourse home page. Ex: /t/139335'
