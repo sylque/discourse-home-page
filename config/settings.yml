@@ -1,0 +1,10 @@
+plugins:
+  discourse_home_page_enabled:
+    refresh: true
+    client: true
+    default: false
+  discourse_home_page_path:
+      refresh: true
+      client: true
+      type: list
+      default: ""
