@@ -4,5 +4,5 @@
 !README.md
 !LICENSE
 !plugin.rb
-!assets
-!config
+!assets/**
+!config/**
