@@ -16,7 +16,7 @@ using `https://github.com/sylque/discourse-home-page.git` as the repository URL.
 
 - `discourse_home_page_enabled`: switch the plugin on/off
 
-- `discourse_home_page_path`: path of the home page. For example `/t/12` will
+- `discourse_home_page_path`: path of the home page. For example `/t/topic/12` will
   set the home page to topic 12 and `/c/5` will set the home page to category 5.
 
   You can support **localized home pages** by adding more values to
@@ -25,9 +25,9 @@ using `https://github.com/sylque/discourse-home-page.git` as the repository URL.
   German-speaking users to topic 14 and all other users to topic 12.
 
   ```
-    /t/12
-    fr,/t/13
-    de,/t/14
+    /t/topic/12
+    fr,/t/topic/13
+    de,/t/topic/14
   ```
 
 ## Limitations
