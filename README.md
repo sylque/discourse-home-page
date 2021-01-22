@@ -56,6 +56,6 @@ This plugin ia based on a hack. There is no certainty it will keep working in
 future versions of Discourse, even though I'll do my best to maintain it.
 
 There is 
-[this line](https://github.com/discourse/discourse/blob/master/app/assets/javascripts/discourse/routes/forgot-password.js.es6#L13)
+[this line](https://github.com/discourse/discourse/blob/master/app/assets/javascripts/discourse/app/routes/forgot-password.js#L13)
 in Discourse which might cause an issue, but I couldn't get my Discourse
 instance to run through it. Please let me know if you can.

@@ -6,13 +6,15 @@ const LANG_REGEX = /^[a-z][a-z]$/
 export default {
   name: 'discourse-home-page',
   initialize(container, app) {
+    const siteSettings = container.lookup('site-settings:main')
+
     // If plugin is disabled, quit
-    if (!app.SiteSettings['discourse_home_page_enabled']) {
+    if (!siteSettings['discourse_home_page_enabled']) {
       return
     }
 
     // Get the home page paths
-    const paths = app.SiteSettings['discourse_home_page_path'].split('|')
+    const paths = siteSettings['discourse_home_page_path'].split('|')
 
     // Check the paths
     let pathsObj = {}
