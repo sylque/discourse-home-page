@@ -1,6 +1,7 @@
 *
 !*/
 !.gitignore
+!.discourse-compatibility
 !README.md
 !LICENSE
 !plugin.rb
