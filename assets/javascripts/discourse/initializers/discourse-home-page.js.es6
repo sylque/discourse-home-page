@@ -40,7 +40,9 @@ export default {
 
       // Fix for issue #4
       // Remove the leading '/', as it is not supported by Discourse anymore
-      path = path.substring(1)
+      if (path.startsWith('/')) {
+        path = path.substring(1)
+      }
       pathsObj[lang] = path
     }
 

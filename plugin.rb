@@ -1,6 +1,6 @@
 # name: discourse-home-page
 # about: A Discourse plugin to set the home page of a Discourse instance
-# version: 1.0.5
+# version: 1.0.6
 # authors: Sylvain Quendez
 # url: https://github.com/sylque/discourse-home-page
 
